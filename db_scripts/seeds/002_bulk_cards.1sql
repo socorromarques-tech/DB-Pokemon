@@ -1,0 +1,23 @@
+INSERT INTO tbl_cards (hp, name, info, attack, damage, weak, resis, retreat,
+cardNumberInCollection, collection_id, type_id, stage_id) VALUES
+(40, 'Pikachu', 'Mouse Pokémon', 'Thunder Jolt', '30', 'Fighting', 'Metal', '1', 58, 1, 4, 1),
+(120, 'Charizard', 'Flame Pokémon', 'Fire Spin', '100', 'Water', 'Fighting', '3', 4, 1, 1, 3),
+(60, 'Squirtle', 'Tiny Turtle Pokémon', 'Bubble', '20', 'Electric', 'None', '1', 7, 1, 2, 1),
+(80, 'Wartortle', 'Turtle Pokémon', 'Water Gun', '40', 'Electric', 'None', '1', 42, 1, 2, 2),
+(100, 'Blastoise', 'Shellfish Pokémon', 'Hydro Pump', '60', 'Electric', 'None', '3', 2, 1, 2, 3),
+(50, 'Bulbasaur', 'Seed Pokémon', 'Leech Seed', '20', 'Fire', 'Water', '1', 44, 1, 3, 1),
+(70, 'Ivysaur', 'Seed Pokémon', 'Vine Whip', '30', 'Fire', 'Water', '2', 30, 1, 3, 2),
+(100, 'Venusaur', 'Seed Pokémon', 'Solar Beam', '60', 'Fire', 'Water', '3', 15, 1, 3, 3),
+(70, 'Eevee', 'Evolution Pokémon', 'Quick Attack', '20', 'Fighting', 'None', '1', 51, 2, 7, 1),
+(90, 'Snorlax', 'Sleeping Pokémon', 'Body Slam', '30', 'Fighting', 'Psychic', '4', 11, 2, 7, 1),
+
+(50, 'Charmander', 'Lizard Pokémon', 'Ember', '30', 'Water', 'None', '1', 24, 1, 1, 1),
+(80, 'Charmeleon', 'Flame Pokémon', 'Flamethrower', '50', 'Water', 'None', '2', 32, 1, 1, 2),
+(30, 'Magikarp', 'Fish Pokémon', 'Splash', '0', 'Electric', 'None', '1', 35, 1, 2, 1),
+(100, 'Gyarados', 'Atrocious Pokémon', 'Dragon Rage', '50', 'Electric', 'Fighting', '3', 6, 1, 2, 3),
+(60, 'Oddish', 'Weed Pokémon', 'Absorb', '20', 'Fire', 'Water', '1', 52, 2, 3, 1),
+(70, 'Gloom', 'Weed Pokémon', 'Poisonpowder', '30', 'Fire', 'Water', '2', 28, 2, 3, 2),
+(90, 'Vileplume', 'Flower Pokémon', 'Petal Dance', '60', 'Fire', 'Water', '2', 13, 2, 3, 3),
+(40, 'Meowth', 'Scratch Cat Pokémon', 'Pay Day', '20', 'Fighting', 'None', '1', 56, 2, 7, 1),
+(60, 'Psyduck', 'Duck Pokémon', 'Headache', '0', 'Electric', 'None', '1', 54, 2, 5, 1),
+(80, 'Golduck', 'Duck Pokémon', 'Hyper Beam', '50', 'Electric', 'None', '2', 18, 2, 2, 2);

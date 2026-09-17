@@ -1,0 +1,29 @@
+/*ação*/
+cret a script to create  table in postgresql 
+
+/*contexto*/
+- the first table is table to save a pockemon tcg cards
+- the secund table is table to save  colletion set
+
+connect to table with foreign key
+
+/*informações*/
+first table : tbl_cards
+-id
+-hp
+-name
+-type
+-stage
+-info
+-attack
+-dammage
+-weak
+-resis
+-reatreat
+-cardNamberInCollection
+
+secund table : tbl_collections
+-id
+-colletionSetName
+-release Date
+-totalCardsInCollection
